@@ -17,18 +17,16 @@
   </head>
   <body>
 
-  <nav class="navbar fixed-top text-light justify-content-between">
-  <a class="navbar-brand logo-fashion">Fashion Journal</a>
-  <h3 class="menu-text-style"><span onclick="openNav()">Menu</span></h3>
-</nav>
-
-<div id="fullmenuNav" class="overlay">
+<div id="fullmenuNav" class="row overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="col-sm-12 col-md-12 col-lg-12 overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+  <div class="col-sm-12 col-md-6 col-lg-6 overlay-content">
+    <a href="#">Home</a>
+    <a href="#">Women</a>
+    <a href="#">Autumn</a>
+    <a href="#">Modern</a>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-6 overlay-content">
+
   </div>
 </div>
 <!--end of nav-->
@@ -49,7 +47,10 @@
   </div> <!-- end of container-fluid -->
 </div><!-- end of jumbotron-fluid -->
 <!-- end of jumbotron-->
-
+<nav class="navbar sticky-top bg-danger text-light justify-content-between">
+  <a class="navbar-brand logo-fashion">Fashion Journal</a>
+  <h3 class="menu-text-style"><span onclick="openNav()">Menu</span></h3>
+</nav>
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 title-padding sticky-top text-center">
@@ -80,21 +81,21 @@
         </div> <!--end of card size-->
     </div><!-- end of row -->
     <div class="row container-card-styles">
-        <div class="col-sm-12 col-md-4 col-lg-4 text-center card-padding-style">
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center card-padding-style ">
           <div class="card">
-            <img class="men-card" src="..." alt="">
+            <img class="men-card card-image-style" src="..." alt="">
           </div>
           <a href="#" class="card-title btn btn-block btn-danger text-center card-button-styles"><br> Men Fashion <br><br></a>
         </div> <!--end of card size-->
         <div class="col-sm-12 col-md-4 col-lg-4 text-center card-padding-style">
           <div class="card">
-           <img class="women-card" src="..." alt="">
+           <img class="women-card card-image-style" src="..." alt="">
           </div>
           <a href="#" class="card-title btn btn-block btn-danger text-center card-button-styles"><br> Women Fashion <br><br></a>
         </div> <!--end of card size-->
         <div class="col-sm-12 col-md-4 col-lg-4 text-center card-padding-style">
           <div class="card">
-           <img class="summer-card" src="..." alt="">
+           <img class="summer-card card-image-style " src="..." alt="">
           </div>
           <a href="#" class="card-title btn btn-block btn-danger text-center card-button-styles"><br> Summer Fashion <br><br> </a>
         </div> <!--end of card size-->

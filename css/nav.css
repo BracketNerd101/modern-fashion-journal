@@ -30,13 +30,18 @@ font-family: 'Nova Mono', monospace;
 
 }
 
+.my-3 {
+   border-top: 2px;
+}
+
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 20%;
     width: 100%;
     text-align: center;
     margin-top: 10px;
     font-size: 3rem;
+    font-family: 'Anton', sans-serif;
 }
 
 .overlay a {
@@ -49,7 +54,7 @@ font-family: 'Nova Mono', monospace;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .overlay .closebtn {

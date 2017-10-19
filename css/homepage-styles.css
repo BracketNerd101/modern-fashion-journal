@@ -159,6 +159,16 @@ font-family: 'Nova Mono', monospace;
 
 }
 
+.card-image-style {
+    opacity: 1;
+}
+
+.card-image-style:hover {
+
+   /*opacity: 0.4;*/
+
+}
+
 .card-button-styles {
     font-family: 'Cutive Mono', monospace;
     font-size: 1.4rem;
@@ -167,5 +177,6 @@ font-family: 'Nova Mono', monospace;
 
 .card-padding-style {
     margin-bottom: 4rem;
+    border-radius: 0px 0px 0px 0px;
 
 }
