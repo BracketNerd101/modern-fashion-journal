@@ -11,19 +11,20 @@
    <link href="https://fonts.googleapis.com/css?family=Anton|Cutive+Mono|Fascinate+Inline|Nova+Mono|Rubik+Mono+One|Syncopate" rel="stylesheet">
 <!-- google fonts -->
     <link rel="stylesheet" href="css/nav.css">
-    
+    <link rel="stylesheet" href="css/homepage-styles.css">
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-  
-  <nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand">Navbar</a>
-  <h3 class=""> Menu</h3>
+
+  <nav class="navbar fixed-top text-light justify-content-between">
+  <a class="navbar-brand logo-fashion">Fashion Journal</a>
+  <h3 class="menu-text-style"><span onclick="openNav()">Menu</span></h3>
 </nav>
 
 <div id="fullmenuNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
+  <div class="col-sm-12 col-md-12 col-lg-12 overlay-content">
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Clients</a>
@@ -32,36 +33,57 @@
 </div>
 <!--end of nav-->
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid bg-danger">
   <div class="container-fluid">
-    <div class="col-lg-6 large-mini-banner"><img src="" alt="">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 large-mini-banner">
+        <h1 class="text-light text-center banner-spotlet-text">Fashion Spotlight</h1>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 text-light">
+        <h2 class="trends-title-text">Newest Trends</h2>
+        <p>IN: "Stripes are the equivalent to what a white t-shirt used to be back in the day," says Roopal Patel, fashion director of Saks Fifth Avenue. "They have nine lives. We've seen the trend now for two to three seasons and it will continue to carry forward." <br><br>IN: "Sneakers will continue to be extremely popular in the upcoming year," advises Gennie Yi, Intermix's buyer of designer and ready-to-wear. "Because of their versatility, you can never have too many. Glitter, leopard, and satin updates to sneakers effortlessly dress up an outfit and give you a reason to buy multiple pairs." <br><br>
+        IN: "There was an artistically inspired theme across the runways," says Kate Foley, contributing fashion director of Vestiaire Collective. "From Roksanda and Céline to J.W.Anderson, Proenza Schouler, Marni, Valentino, and many other brands, whether directly inspired by a particular artist's work, painterly prints, or patterns, strong art references will be here to stay in 2017." <br><br>
+        </p>
+      </div>
     </div>
-    <div class="col-lg-6 bg-warning"><img src="" alt="">
-    </div>
-  </div>
-</div>
+  </div> <!-- end of container-fluid -->
+</div><!-- end of jumbotron-fluid -->
 <!-- end of jumbotron-->
 
 <div class="container-fluid">
     <div class="row">
-        <div class="sticky-top text-center">
-     
-        </div>
-        <!--end of sticky title -->
+        <div class="col-sm-12 col-md-12 col-lg-12 title-padding sticky-top text-center">
+          <h3 class="text-center text-light title-style"> Fashion Journal: Modern Era</h3>
+        </div><!--end of sticky title -->
     </div><!--end of row-->
 </div><!--end of container-fluid-->
 
-<div class="container-fluid">
-    <div class="row">
+<div class="container-fluid bg-style-diagnol">
+    <div class="row container-card-styles">
         <div class="col-sm-12 col-md-4 col-lg-4">
-    
-        </div>
+          <div class="card">
+            <img class="modern-card" src="..." alt="">
+            <div class="card-body">
+              <h4 class="card-title text-center">Modern</h4>
+            </div>
+          </div>
+        </div> <!--end of card size-->
         <div class="col-sm-12 col-md-4 col-lg-4">
-
-        </div>
+          <div class="card">
+           <img class="accessory-card" src="..." alt="">
+           <div class="card-body">
+             <h4 class="card-title text-center">Accesories</h4>
+           </div>
+          </div>
+        </div> <!--end of card size-->
         <div class="col-sm-12 col-md-4 col-lg-4">
-
-        </div>
+          <div class="card">
+           <img class="autumn-card" src="..." alt="">
+           <div class="card-body">
+             <h4 class="card-title text-center">Autumn</h4>
+           </div>
+          </div>
+        </div> <!--end of card size-->
     </div><!-- end of row -->
 </div> <!-- end of container-fluid -->
 
@@ -70,13 +92,12 @@
     <div class="row">
         <div class="col-sm-12 col-md-7 col-lg-7">
            <img src="" alt="">
-            
         </div> <!-- end of div -->
         <div class="col-sm-12 col-md-5 col-lg-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sapiente minima inventore quaerat incidunt atque nobis architecto porro necessitatibus quo vero pariatur quis, id dolor nemo, minus suscipit eligendi. Doloremque rem minus voluptatem perspiciatis harum.
             </p>
             <button type="button" class="btn btn-primary">Primary</button>
-            
+
         </div> <!-- end of div -->
     </div> <!-- end of row -->
 </div> <!-- end of container-fluid -->
@@ -85,18 +106,18 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            
+
         </div>
     </div>
      <div class="row">
         <div class=" col-lg-12 col-md-4 col-lg-4">
-            
+
         </div><!-- end of div -->
         <div class=" col-lg-12 col-md-4 col-lg-4">
-            
+
         </div><!-- end of div -->
         <div class=" col-lg-12 col-md-4 col-lg-4">
-            
+
         </div><!-- end of div -->
     </div><!-- end of row -->
 </div><!-- end of container-fluid -->

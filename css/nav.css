@@ -1,6 +1,6 @@
 body {
-    
-    
+
+
 }
 
 
@@ -25,7 +25,9 @@ font-family: 'Nova Mono', monospace;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.8s;
+    z-index: 9000000;
+
 }
 
 .overlay-content {
@@ -33,16 +35,17 @@ font-family: 'Nova Mono', monospace;
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    font-size: 3rem;
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 5rem;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.8s;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -64,4 +67,3 @@ font-family: 'Nova Mono', monospace;
     right: 35px;
   }
 }
-

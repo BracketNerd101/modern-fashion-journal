@@ -1,0 +1,133 @@
+body {
+
+
+}
+
+
+/* --------------------------
+
+
+font-family: 'Anton', sans-serif;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Nova Mono', monospace;
+
+  -------------------------*/
+
+.logo-fashion {
+
+  font-family: 'Fascinate Inline', cursive;
+
+}
+
+.menu-text-style {
+
+  font-family: 'Cutive Mono', monospace;
+  cursor: pointer;
+
+}
+.large-mini-banner {
+
+   background-image: url(../img/darling.jpg);
+   background-size: cover;
+   height: 45rem;
+   width: auto;
+
+
+}
+
+.jumbotron-fluid {
+    margin-bottom: auto;
+
+}
+
+.title-padding {
+    height: inherit;
+    font-family: 'Fascinate Inline', cursive;
+    background-color: #dc3545 ;
+
+}
+
+.title-style {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: auto;
+
+}
+
+.trends-title-text {
+   font-family: 'Fascinate Inline', cursive;
+   margin-top: 2rem;
+
+}
+.banner-spotlet-text {
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 25rem;
+  font-family: 'Cutive Mono', sans-serif;
+
+}
+
+.bg-style-diagnol {
+
+  /*background-color: #dc3545 ;*/
+  background: linear-gradient(to right bottom, #dc3545 50%, #ffffff 50%);
+
+}
+
+.mini-banner-container {
+
+  display: flex;
+  text-align: center;
+
+
+}
+
+.mini-mini-banner {
+
+  height: 15rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+}
+
+
+.container-card-styles {
+
+   padding-bottom: 7rem;
+   padding-top: 7rem;
+
+}
+
+
+.autumn-card {
+  background-image: url(../img/out-doors.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+
+
+}
+
+.accessory-card {
+  background-image: url(../img/male-model.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+
+
+}
+
+.modern-card {
+  background-image: url(../img/sam-model.jpg);
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+
+
+}
