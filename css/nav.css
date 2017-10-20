@@ -39,14 +39,14 @@ font-family: 'Nova Mono', monospace;
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-family: 'Anton', sans-serif;
 }
 
 .overlay a {
     padding: 5px;
     text-decoration: none;
-    font-size: 5rem;
+    font-size: 3rem;
     color: #818181;
     display: block;
     transition: 0.8s;

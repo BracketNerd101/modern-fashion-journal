@@ -165,6 +165,27 @@ font-family: 'Nova Mono', monospace;
 
 }
 
+.modern-spotlight-banner {
+
+  background-image: url(../img/po-fashion.jpg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  margin-bottom: 5rem;
+
+}
+
+.modern-spotlight-headline-styles {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Cutive Mono', sans-serif;
+
+}
+
+.modern-spotlight-styles {
+   margin-bottom: 8rem;
+}
+
 .card-image-style {
     opacity: 1;
 }
@@ -189,7 +210,19 @@ font-family: 'Nova Mono', monospace;
 
 
 .footer-container {
-    
+
     height: inherit;
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.footer-links, a{
+
+    text-decoration: none;
+    list-style: none;
+    /*font-family: 'Cutive Mono', monospace;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.6rem;
+
 }

@@ -1,0 +1,111 @@
+body {
+
+
+}
+
+
+/* --------------------------
+
+
+font-family: 'Anton', sans-serif;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Nova Mono', monospace;
+
+  -------------------------*/
+
+.logo-fashion {
+
+  font-family: 'Fascinate Inline', cursive;
+}
+
+.menu-text-style {
+
+  font-family: 'Cutive Mono', monospace;
+  cursor: pointer;
+
+}
+
+.journal-banner-styles {
+
+   background-image: url(../img/darling.jpg);
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
+
+}
+
+.article-styles {
+    margin-top: -4rem;
+
+}
+
+.journal-container{
+
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.journal-entry {
+
+  font-family: 'Cutive Mono', sans-serif;
+
+}
+
+.side-notes {
+    font-family: 'Cutive Mono', sans-serif;
+
+}
+
+.model-journal-1 {
+  background-image: url(../img/flower-shoes.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+
+}
+
+.model-journal-2 {
+  background-image: url(../img/bw-model.jpg);
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+
+}
+
+.model-journal-3 {
+  background-image: url(../img/sun-glasses.jpg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  margin-bottom: 4rem;
+
+}
+
+
+.card-padding-style {
+    margin-bottom: 4rem;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+
+.footer-container {
+
+    height: inherit;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.footer-links, a{
+
+    text-decoration: none;
+    list-style: none;
+    /*font-family: 'Cutive Mono', monospace;*/
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.6rem;
+
+}
