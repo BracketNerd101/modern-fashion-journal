@@ -27,9 +27,10 @@ font-family: 'Nova Mono', monospace;
   cursor: pointer;
 
 }
+
 .large-mini-banner {
 
-   background-image: url(../img/darling.jpg);
+   background-image: url(../img/summer-model.jpg);
    background-size: cover;
    height: 45rem;
    width: auto;
@@ -62,6 +63,11 @@ font-family: 'Nova Mono', monospace;
    font-family: 'Fascinate Inline', cursive;
    margin-top: 2rem;
 
+}
+
+.small-circle-banner {
+    height: 15rem;
+    width: auto;
 }
 
 .banner-spotlet-text {
@@ -179,4 +185,11 @@ font-family: 'Nova Mono', monospace;
     margin-bottom: 4rem;
     border-radius: 0px 0px 0px 0px;
 
+}
+
+
+.footer-container {
+    
+    height: inherit;
+    
 }
