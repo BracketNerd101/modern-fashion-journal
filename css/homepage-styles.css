@@ -32,8 +32,12 @@ font-family: 'Nova Mono', monospace;
 
    background-image: url(../img/summer-model.jpg);
    background-size: cover;
-   height: 45rem;
+   height: 50rem;
    width: auto;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
 
 
 }
@@ -206,6 +210,13 @@ font-family: 'Nova Mono', monospace;
     margin-bottom: 4rem;
     border-radius: 0px 0px 0px 0px;
 
+}
+
+
+.learn-more-btn {
+
+  font-family: 'Cutive Mono', sans-serif;
+  font-size: 1.2rem;
 }
 
 
