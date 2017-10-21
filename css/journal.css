@@ -84,6 +84,11 @@ font-family: 'Nova Mono', monospace;
 
 }
 
+.learn-more-btn {
+
+  font-family: 'Cutive Mono', sans-serif;
+}
+
 
 .card-padding-style {
     margin-bottom: 4rem;
