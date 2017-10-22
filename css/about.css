@@ -1,0 +1,54 @@
+body {
+    
+    
+}
+
+
+/* --------------------------
+
+
+font-family: 'Anton', sans-serif;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Nova Mono', monospace;
+
+  -------------------------*/
+
+.about-banner-styles {
+    
+   background-image: url(../img/catwalk.jpg);
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
+
+}
+
+
+.new-fashion {
+    
+   background-image: url(../img/purse.jpg);
+   background-size: cover;
+   height: 32rem;
+   width: 100%;
+    
+    
+}
+
+.about-pic-padding-style {
+    
+    margin-top: -16rem;
+    margin-bottom: 4rem;
+    
+}
+
+.about-pic {
+    
+    width: 12rem;
+    height:auto;
+}
+
+
+
+
