@@ -83,7 +83,7 @@ font-family: 'Nova Mono', monospace;
 .bg-style-diagnol {
 
   /*background-color: #dc3545 ;*/
-  background: linear-gradient(to right bottom, #000000 50%, #ffffff 50%);
+  background: linear-gradient(to right bottom, #dc3545 50%, #ffffff 50%);
 
 }
 
@@ -165,9 +165,19 @@ font-family: 'Nova Mono', monospace;
 
 }
 
-.modern-spotlight-banner {
+.modern-spotlight-banner-01 {
 
-  background-image: url(../img/po-fashion.jpg);
+  background-image: url(../img/cali-model.jpg);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  margin-bottom: auto;
+
+}
+
+.modern-spotlight-banner-02 {
+
+  background-image: url(../img/bw-model.jpg);
   background-size: cover;
   height: 45rem;
   width: 100%;
